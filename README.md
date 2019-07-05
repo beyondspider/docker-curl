@@ -2,10 +2,10 @@
 
 ## build
 ```bash
-./build.sh
+docker build -t beyondspider/curl:latest .
 ```
 
 ## push
 ```bash
-./push.sh
+docker push beyondspider/curl:latest
 ```
